@@ -1,0 +1,5 @@
+For which recent year is the crime_by_lsoa London data available(Maximum)?
+
+SELECT max(year) 
+FROM `bigquery-public-data.london_crime.crime_by_lsoa` 
+LIMIT 1000
