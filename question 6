@@ -1,0 +1,6 @@
+Select all the crime data occurred in the month of November?
+
+SELECT *  
+FROM `bigquery-public-data.london_crime.crime_by_lsoa` 
+where month = 11 
+LIMIT 10
