@@ -1,0 +1,5 @@
+What are the distinct sub-categories in the major-category?
+
+SELECT COUNT (DISTINCT major_category)
+FROM `bigquery-public-data.london_crime.crime_by_lsoa` 
+LIMIT 1000
