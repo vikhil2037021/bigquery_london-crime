@@ -1,0 +1,5 @@
+How many sub-categories are there in minor-category(COUNT)?
+
+SELECT COUNT (Distinct minor_category)
+FROM `bigquery-public-data.london_crime.crime_by_lsoa` 
+LIMIT 1000
